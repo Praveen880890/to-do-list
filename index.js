@@ -103,7 +103,5 @@ const todoList = () => {
   };
 };
 
-// ####################################### #
-// DO NOT CHANGE ANYTHING BELOW THIS LINE. #
-// ############## #
+
 module.exports = todoList;
