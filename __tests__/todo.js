@@ -9,6 +9,7 @@ describe("Todolist Test Suite", () => {
       dueDate: new Date().toLocaleDateString("en-CA"),
     });
   });
+
   test("should add new todo", () => {
     const count0 = all.length;
     add({
