@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  background-color: rgba(48, 211, 130, 0.867);
+}
+.head {
+  margin-top: 1rem;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #e07777;
+  width: 500px;
+  height: 500px;
+  box-shadow: 2px 4px 10px grey;
+  border: 1px solid red;
+  border-radius: 20px;
+  padding: 20px;
+}
+.input {
+  padding: 10px 15px;
+  border: 2px solid rgba(0, 0, 0, 0.4);
+  font-size: 18px;
+  outline: none;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.02);
+}
+label {
+  font-size: 18px;
+  letter-spacing: 1.4px;
+}
+.tableForm {
+  margin-top: 10px;
+}
+.btn {
+  background-color: rgb(53, 78, 17);
+  color: white;
+  padding: 10px 20px;
+  font-size: large;
+  font-weight: 600;
+  border-radius: 10px;
+}
+
+input:invalid:focus {
+  border: 2px solid yellowgreen;
+}
+
+.table {
+  border: 2px solid black;
+  margin: 40px auto;
+}
+
+.td,
+.th {
+  padding: 10px;
+  text-align: center;
+}
+
+.subHead {
+  text-align: center;
+  margin-top: 2rem;
+}
